@@ -1,0 +1,120 @@
+/* @import '~antd/dist/antd.css'; */
+/* @import '@formily/antd/dist/antd.css'; */
+
+body {
+  font-size: 14px;
+}
+
+/* inputNumber的宽度 */
+.mtd-input-number-wrapper.mtd-input-number-without-controls.mtd-input-number-without-controls {
+  width: 100%;
+  text-align: left;
+}
+
+/* 按钮颜色 */
+.mtd-button-primary.mtd-button-primary.mtd-button-rect {
+  background-color: #0a70f5;
+}
+
+/* 红色按钮样式 */
+.mtd-button-danger.mtd-button-danger.mtd-button-rect {
+  background: #f5483b;
+}
+
+/* 分页组件样式调整 */
+.mtd-pagination-item .mtd-button-primary.mtd-button-ghost {
+  background-color: transparent;
+}
+
+/* 上传组件的预览图标样式调整 */
+.mtd-filelist-item-preview.mtdicon-visibility-on-o {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.mtd-filelist-item-refresh.mtdicon-refresh-o {
+  line-height: 22px;
+}
+
+/* 调整header上Logo样式 */
+.side-headers-left img {
+  height: 100%;
+}
+
+/* 调整表单阅览模式下文字换行问题 */
+.cs-form-container-block .form-text {
+  word-break: break-all;
+}
+
+/* formily的formItem标题样式调整 */
+.formily-item-label-content {
+  padding-top: 6px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+/* 调整按钮样式 */
+.formily-item-control-content-component .mtd-button:focus {
+  color: rgba(0, 0, 0, 0.84);
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+/* 调整arrayTable的新增按钮样式 */
+.ant-formily-array-base-addition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-formily-array-base-addition .anticon-plus {
+  display: flex;
+  align-items: center;
+}
+
+/* 调整布局容器main区域的样式 */
+.cs-main {
+  height: calc(100vh - 48px);
+  padding-top: 0 !important;
+}
+
+.margin-right12 {
+  margin-right: 12px;
+}
+
+/* 下拉框组件样式调整 */
+.mtd-select.mtd-select {
+  background-color: transparent;
+}
+
+/* 左侧菜单栏样式调整 */
+
+.mtd-menu-submenu-selected.mtd-menu-submenu-selected,
+.mtd-menu-light.mtd-menu-light,
+.mtd-menu.side-menu .side-menu-item.side-menu-item {
+  color: #111925;
+}
+
+.mtd-menu.side-menu .side-menu-item.selected.selected {
+  color: #111925;
+  font-weight: 500;
+}
+
+/* arrayTable的分页样式调整 */
+.ant-pagination-item-link.ant-pagination-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 顶部header样式修改 */
+.side-headers .logo-container img {
+  width: auto;
+}
+
+/* 修改formily表单样式 */
+@media screen and (max-width: 1595px) and (min-width: 1540px) {
+  .formily-item-label-align-right > .formily-item-label {
+    width: 100px;
+    min-width: 100px;
+  }
+}
